@@ -61,4 +61,8 @@ const cat = {
     }
   };
 
+//To log out a method
 console.log(cat.play());
+
+//Remove a specific item from an array
+cat.favoriteToys.splice(1,1);
